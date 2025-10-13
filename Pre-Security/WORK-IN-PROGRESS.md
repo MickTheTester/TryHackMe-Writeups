@@ -10,7 +10,6 @@
 
 ---
 
-## Short-term plan (next 2 weeks)
 1. Complete **Pre-Security** path on TryHackMe — capture nmap output and 1 screenshot.
 2. Publish `Pre-Security/PreSecurity.md` with commands, notes, and screenshots.
 3. Complete one intermediate lab (e.g., Vulnversity) and publish a writeup.
