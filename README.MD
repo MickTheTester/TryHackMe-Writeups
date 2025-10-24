@@ -14,3 +14,4 @@ echo "fakeuser:$HASH:18000:0:99999:7:::" > /tmp/shadow.fake
 sudo unshadow /tmp/passwd.fake /tmp/shadow.fake > /tmp/unshadow_fake.txt
 john --wordlist=/tmp/my-small-wordlist.txt --pot=/tmp/john_fake.pot /tmp/unshadow_fake.txt
 john --show --pot=/tmp/john_fake.pot /tmp/unshadow_fake.txt
+
