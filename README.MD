@@ -15,3 +15,16 @@ sudo unshadow /tmp/passwd.fake /tmp/shadow.fake > /tmp/unshadow_fake.txt
 john --wordlist=/tmp/my-small-wordlist.txt --pot=/tmp/john_fake.pot /tmp/unshadow_fake.txt
 john --show --pot=/tmp/john_fake.pot /tmp/unshadow_fake.txt
 
+## Screenshots
+
+### Step 1 — Unshadow hashes
+![Unshadow hashes](Step%202%20unshadow%20hashes.png)
+*Combined passwd+shadow using `unshadow` to create the cracking input.*
+
+### Step 2 — John running
+![John running](Step%203%20Johnn%20Running.png)
+*John the Ripper running — progress & ETA during cracking.*
+
+### Step 3 — Cracked password (result)
+![Cracked password](Step%204%20cracked%20password.png)
+*Final `john --show` output displaying `fakeuser:password1` (demo).*
